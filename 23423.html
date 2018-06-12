@@ -1,0 +1,216 @@
+<!doctpe html>
+<html>
+      <head>
+            <meta charset="utf-8">
+            <style>
+                
+                body {
+                    margin: 0px;
+                    padding: 0px;
+                    border: 2px solid black;
+                    background-color: #a9a9a9;
+                }
+                
+                #caption {
+                    margin: 15px;
+                    padding: 0px;
+                    border: 2px solid black;
+                    background-color: white;
+                }
+                
+                .block_caption {
+                    margin: 5px;
+                    padding: 0px;
+                    margin-right: -0.3vh;
+                    margin-left: 45vh;
+                    margin-bottom: 4vh;
+                    border: 2px solid black;
+                }
+                
+                h1 {
+                    margin: 15px;
+                    font-size: 40px;
+                    font-style: italic;
+                    margin-right: 23px;
+                }
+                
+                #all_the_rest {
+                    margin: 15px;
+                    padding: 15px;
+                    padding-bottom: 20vh;
+                    margin-left: 23%;
+                    border: 2px solid black;
+                    background-color: white;
+                }
+                
+                .block_page {
+                    margin: 5px;
+                    padding: 6px;
+                    border: 2px solid black;
+                }
+                
+                .block_page {
+                    font-size: 5vh;
+                    font-style: italic;
+                }
+                
+                .text {
+                    font-size: 340%;
+                    font-style: italic;
+                }
+                
+                .menu  {
+                    padding: 13px;
+                    margin: 12px;
+                    margin-right: 78%;
+                    margin-bottom: -4vh;
+                }
+                .menu > .a {
+                 order: 1; 
+                 border: 1px solid black;
+                } 
+                .menu > .b {
+                 order: 2; 
+                 border: 1px solid black;
+                } 
+                .menu > .c {
+                 order: 3;
+                 border: 1px solid black;
+                }
+                .menu > .d {
+                 order: 4; 
+                 border: 1px solid black
+                } 
+                
+                #third {
+                    margin: 12px;
+                    padding: 12px;
+                    margin-bottom: -29vh;
+                    border: 2px solid black;
+                }
+           </style>
+    </head>
+
+    <body>
+<section id="caption">
+        <header class="block_caption">
+         <h1 align="right">Название сайта</h1>
+    </header>
+        </section>
+        <section id="all_the_rest">
+          <header class="block_page">
+            <p class="page_text" align="right"><b>Название страницы</b></p>
+            </header>
+             <p class="text" align="center">Поле ввода информации</p>
+        </section>
+         <article class="menu">
+           <div class="a">1</div>
+           <div class="b">2</div>
+           <div class="c">3</div>
+           <div class="d">4</div>
+        </article>
+        
+         <footer id="third">
+        </footer>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+  
+    
+    
+    
+      <style>
+        
+    #c1 {
+	width: 400px;
+	height: 200px;
+	border: 3px solid black;
+	margin: 40px;
+	background-image: url(setka.png);
+}
+    </style>
+</head>
+<body>
+
+<canvas id="c1" width="400" height="200">
+    <script  src="js.js" defer >
+    var canvas = document.getElementById('c1');
+var ctx = canvas.getContext('2d');
+ctx.fillStyle = 'red';
+ctx.fillRect(100, 50, 150, 75);
+ctx.fillStyle = 'blue';
+ctx.fillRect(150, 100, 100, 50);
+// ctx.fillRect(x, y, width, height);
+//ctx.clearRect(0,0, 400, 200); //стирает canvas
+
+ctx.strokeStyle = "green";
+ctx.lineWidth = "10";
+ctx.rect(50,10, 100, 100);
+ctx.stroke();
+ctx.fillStyle = "orange";
+ctx.fill();
+    </script>
+    </canvas>
+    
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
